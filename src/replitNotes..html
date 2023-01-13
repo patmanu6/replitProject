@@ -1,0 +1,761 @@
+1//.Create a variable called "myBoolean" and set it to false
+- Create a variable called "money" and set it to 99999.99
+- Print value of variable "money"
+- **On same line** print value of the variable "myBolean"
+
+****************************************************
+
+2.//*
+For you to do:
+Print out the following pattern:
+Output:
+*
+**
+***
+##
+#
+*/
+public class Problem_004 {
+public static void main(String[] args) {
+System.out.println("*");
+System.out.println("**");
+System.out.println("***");
+System.out.println("##");
+System.out.println("#");
+
+*************************************************************
+3.//*
+For you to do:
+Create a String variable "name" and assign a value of "Chen" to it
+Create an integer variable "age" and assign a value of 50 to it
+Create an integer variable "iq" and assign the value of age to it (do NOT use ' =
+50')
+Print the value of a name
+Print the value of "age" and the value of "iq" on the same line.
+Output:
+Chen
+5050
+*/
+public class Problem_005 {
+public static void main (String[] args) {
+String name ="Chen";
+int age = 50;
+int iq = age;
+System.out.println(name);
+System.out.print(age);
+
+************************************************************
+4//*
+Declare a variable and assign the value of "Java" to it.
+Declare a variable and assign the value of "programming language" to it.
+Concatenate both Strings and output should look like as below.
+**Output:**
+```
+Java is the #1 programming language
+*/
+public class Problem_007 {
+public static void main(String[] args) {
+String var1 = "Java";
+String var2 = "programming language";
+System.out.println(var1 + " is the #1" + " " + var2);
+*************************************************************
+
+5//*
+Create 2 Strings
+Use the concatenation operation to make the following output
+**Output:**
+syntaxtechs.com
+*/
+public class Problem_008 {
+public static void main (String[] args){
+String var1="syntaxtechs";
+String var2=".com";
+System.out.println(var1+var2);
+*****************************************************************
+
+6//*Create a float data type variable and assign a value of  8.2 to it
+Multiply the value by itself and print the result.
+**Output:**
+The multiplication of ___ with itself is equal to ____
+*/
+public class Problem_009 {
+public static void main (String[] args){
+float var1=8.2f;
+float var2=var1*var1;
+System.out.println("The multiplication of"+" "+var1+" with itself is equal
+to "+var2);
+*************************************************************************
+
+7//Declare 2 numbers and assign values 200 and 100 respectively.
+First, add numbers, then subtract, third multiply, forth divide.
+Please use variables to print the values of each operation result on a separate
+line.
+Output:
+300
+100
+20000
+2
+*/
+public class Problem_010 {
+public static void main (String[] args){
+int num1=200;
+int num2=100;
+System.out.println(num1+num2);
+System.out.println(num1-num2);
+System.out.println(num1*num2);
+System.out.println(num1/num2);
+***********************************************************************
+
+8//*
+Write a program to print the perimeter and area of a rectangle with width = 5 and
+height = 8.
+**Output:**
+The perimeter of a rectangle with width __ and height __ is equals to __ and the
+area equals to __
+*/
+public class Problem_011 {
+public static void main(String[] args) {
+int rWidth = 5;
+int rHeight = 8;
+int perimeter = rHeight + rHeight + rWidth + rWidth;
+int area = rWidth * rHeight;
+System.out.println("The perimeter of a rectangle with width" + " " + rWidth
++ " and height" + " " + rHeight + " is equals to" + " " + perimeter + " and the
+area equals to" + " " + area);
+*************************************************
+
+9//For you to do:
+Add num1 and num2
+Divide the result by num3
+Subtract num4 from that result
+Instructions: Please use variables to assign the result of arithmetic operations
+Output:
+The result of arithmetic operations is equal to ___
+*/
+public class Problem_012 {
+public static void main(String[] args) {
+int num1 = 3;
+int num2 = 7;
+int num3 = 5;
+int num4 = 1;
+//start coding here
+int addNum=num1+num2;
+int divNum=addNum/num3;
+int subNum=divNum-num4;
+System.out.println("The result of arithmetic operations is equal to "+"
+"+subNum);
+**********************************************
+
+10///*
+Math Magic
+In this project, you will become a magician and write a small program that performs
+a mathematical magic trick! It will involve performing arithmetic operations on an
+integer that you created.
+For you to do:
+Create an int variable called myNumber. Set it equal to any number other than 0.
+We will refer to myNumber as the original number from now on.
+Create an int variable called stepOne. Set it equal to the original number
+(myNumber) multiplied by itself.
+Create an int variable called stepTwo. Set it equal to the previous result
+(stepOne) plus the original number (myNumber).
+Create an int variable called stepThree. Set it equal to the previous result
+(stepTwo) divided by the original number.
+Create an int variable called stepFour. Set it equal to the previous result
+(stepThree) plus 17.
+Create an int variable called stepFive. Set it equal to the previous result
+(stepFour) minus the original number.
+Create an int variable called stepSix.Set it equal to the previous result
+(stepFive) divided by 6.
+Let's print out the value of the last step as: "The magic number is _ !"
+Now try running your code! What number is printed to the console?
+Now, go back to your code and change myNumber to any other integer.
+Run your program again.
+Is the output the same?
+It's math magic!
+Output:
+The magic number is _!
+*/
+public class Problem_013 {
+public static void main (String[] args) {
+int myNumber=7;
+int stepOne=myNumber*myNumber;
+int stepTwo=stepOne+myNumber;
+int stepThree=stepTwo/myNumber;
+int stepFour=stepThree+17;
+int stepFive=stepFour-myNumber;
+int stepSix=stepFive/6;
+System.out.println("The magic number is"+" "+stepSix+"!");
+****************************************************************
+
+9//
+/*
+- Add the values of num1 and num2 and then subtract num3 from the result and store
+it in result1 variable
+- Multiply num4 and num5 together and then divide num6 from the result and store it
+in result2 variable
+- Print the following statement:
+**_______ modded by _______ is ______**
+result2           result1    blank3
+where blank3 is the remainder of result1 into result2
+*/
+public class Problem_014 {
+public static void main(String[] args) {
+int num1 = 5;
+int num2 = 4;
+int num3 = 3;
+int num4 = 7;
+int num5 = 10;
+int num6 = 5;
+//start coding here
+int result1 ;
+int result2 ;
+result1=(num1+num2)-num3;
+result2=(num4*num5)/num6;
+System.out.println(result2+" modded by"+" "+result1+" is"+"
+"+result2%result1);
+System.out.println(result2+" modded by"+" "+result1+" is"+"
+"+result2/result1);
+}
+}*************************************************************
+
+10.For you to do:
+Print the results of 14 mod 2.
+Expected Output:
+0
+*/
+public class Problem_015 {
+public static void main(String[] args) {
+System.out.println(14 % 2);
+}
+}
+************************************************
+
+11///*
+For you to do:
+Print the result of 29 mod 4
+Output:
+1
+*/
+public class Problem_016 {
+public static void main(String[] args) {
+System.out.println(29 % 4);
+}
+**************************************************
+
+12//
+/*
+For you to do:
+Print the result of 29 mod 4
+Output:
+1
+*/
+public class Problem_016 {
+public static void main(String[] args) {
+System.out.println(29 % 4);
+}
+******************************************************
+
+13///*
+Print result of  -21 mod 4?
+**Expected Output:**
+-1
+*/
+public class Problem_017 {
+public static void main(String[] args) {
+System.out.println(-21 % 4);
+}
+**********************************************
+
+14//Write a program to convert double 100.50 into int type
+Expected Output:
+100
+*/
+public class Problem_019 {
+public static void main(String[] args) {
+double a = 100.50;
+int b = (int) a;
+System.out.println(b);
+****************************************
+
+15//*
+Write a program that takes user's first name and last name and prints in console
+Instruct the user to enter first name: "Please Enter First Name"
+Capture the first name
+Instruct the user to enter last name:"Please Enter Last Name"
+Capture last name
+Print first name and last name
+Final Output:
+Example:
+Please Enter First Name
+Please Enter Last Name
+Cindy Crawford
+*/
+import java.util.Scanner;
+public class Problem_020 {
+public static void main(String[] args) {
+Scanner user = new Scanner(System.in);
+System.out.println("Please Enter First Name");
+String firstName = user.nextLine();
+System.out.println("Please Enter Last Name");
+String lastName = user.nextLine();
+System.out.println(firstName + " " + lastName);
+******************************************************
+
+16//*
+Write a program that takes user's first name and last name and prints in console
+Instruct the user to enter first name: "Please Enter First Name"
+Capture the first name
+Instruct the user to enter last name:"Please Enter Last Name"
+Capture last name
+Print first name and last name
+Final Output:
+Example:
+Please Enter First Name
+Please Enter Last Name
+Cindy Crawford
+*/
+import java.util.Scanner;
+public class Problem_020 {
+public static void main(String[] args) {
+Scanner user = new Scanner(System.in);
+System.out.println("Please Enter First Name");
+String firstName = user.nextLine();
+System.out.println("Please Enter Last Name");
+String lastName = user.nextLine();
+System.out.println(firstName + " " + lastName);
+***************************************************
+
+17./*
+Write a program that asks the user's age: "Enter your age "
+Then display it by adding 10 (i.e age + 10) in your final output.
+Example Output:
+Enter your age 30
+Your age after 10 years is 40
+*/
+import java.util.Scanner;
+public class Problem_021 {
+public static void main(String[] args) {
+Scanner user = new Scanner(System.in);
+System.out.println("Enter your age ");
+int age = user.nextInt();
+System.out.println("Your age after 10 years is " + (age + 10));
+}
+***********************************************************
+
+18./*
+Write a program to take user name, age and mobile number
+First Output: "Enter your name"
+Second Output: "Enter your mobile number" (please use xxx-xxx-xxxx format)
+Third Output: "Enter your age"
+Example Output:
+Enter your name
+Enter your mobile number
+Enter your age
+Your name is Weqas, your age is 45 and your mobile number is 123-456-7890
+*/
+import java.util.Scanner;
+public class Problem_022 {
+public static void main(String[] args) {
+Scanner user = new Scanner(System.in);
+System.out.println("Enter your name");
+System.out.println("Enter your mobile number");
+System.out.println("Enter your age");
+String name = user.nextLine();
+String number = user.nextLine();
+int age = user.nextInt();
+System.out.println("Your name is " + name + ", your age is " + age + " and
+your mobile number is " + number);
+}
+}
+******************************************************************
+
+19/*
+Write a program to take user name, age and mobile number
+First Output: "Enter your name"
+Second Output: "Enter your mobile number" (please use xxx-xxx-xxxx format)
+Third Output: "Enter your age"
+Example Output:
+Enter your name
+Enter your mobile number
+Enter your age
+Your name is Weqas, your age is 45 and your mobile number is 123-456-7890
+*/
+import java.util.Scanner;
+public class Problem_022 {
+public static void main(String[] args) {
+Scanner user = new Scanner(System.in);
+System.out.println("Enter your name");
+System.out.println("Enter your mobile number");
+System.out.println("Enter your age");
+String name = user.nextLine();
+String number = user.nextLine();
+int age = user.nextInt();
+System.out.println("Your name is " + name + ", your age is " + age + " and
+your mobile number is " + number);
+}
+}**********************************************************
+
+20./*
+Create a program that will ask a user to input boolean value "Input the boolean
+value"
+If the input is true or false, then the output should look like below:
+Example Output:
+Input the boolean value
+The value is true
+Example Output:
+Input the boolean value
+The value is false
+*/
+import java.util.Scanner;
+public class Problem_023 {
+public static void main(String[] args) {
+Scanner user = new Scanner(System.in);
+System.out.println("Input the boolean value");
+boolean value = user.nextBoolean();
+if (value) {
+System.out.println("The value is " + value);
+} else {
+System.out.println("The value is " + value);
+}
+}
+************************************************
+
+21// /*
+Create a program that will ask a user to input boolean value "Input the boolean
+value"
+If the input is true or false, then the output should look like below:
+Example Output:
+Input the boolean value
+The value is true
+Example Output:
+Input the boolean value
+The value is false
+*/
+import java.util.Scanner;
+public class Problem_023 {
+public static void main(String[] args) {
+Scanner user = new Scanner(System.in);
+System.out.println("Input the boolean value");
+boolean value = user.nextBoolean();
+if (value) {
+System.out.println("The value is " + value);
+} else {
+System.out.println("The value is " + value);
+}
+}*********************************************
+
+22/*
+Write a program that takes a user's name and prints it.
+Example Output:
+Hello, please enter your name
+Your name is Sumair
+*/
+import java.util.Scanner;
+public class Problem_024 {
+public static void main(String[] args) {
+Scanner user = new Scanner(System.in);
+System.out.println("Hello, please enter your name");
+String userName = user.nextLine();
+System.out.println("Your name is " + userName);
+}
+}//
+****************************************************
+
+23//The variable "num" holds an integer input from a user
+Write a conditional statement starting on line 9 that does the following:
+If num is positive, print "__ is positive"
+If num is negative, print "__ is negative"
+If num is equals to 0, then print "Entered number is equals to 0"
+Examples:
+In: 5
+5 is positive
+In: -2
+-2 is negative
+In: 0
+Entered number is equals to 0
+*/
+import java.util.Scanner;
+public class Problem_025 {
+public static void main(String[] args) {
+Scanner inp = new Scanner(System.in);
+System.out.print("In:");
+int num = inp.nextInt();
+//DO NOT CHANGE ABOVE CODE!  Write your code below
+if (num > 0) {
+System.out.println(num + " is positive");
+} else if (num < 0) {
+System.out.println(num + " is negative");
+} else {
+System.out.println("Entered number is equals to 0");
+}****************************************************
+
+24///*
+The variable "name" holds a String user input
+Write a conditional statement starting on line 9 that does the following:
+If name is equal to "Chen", print "teacher"
+For any other input, print "student"
+Examples:
+In: Chen
+teacher
+In: Faa
+student
+Hint: for your if condition use if(name.equals("Chen")) - we haven't study it yet,
+but this is code to compare Strings. We will cover this topic soon.
+*/
+import java.util.Scanner;
+public class Problem_026 {
+public static void main(String[] args) {
+Scanner inp = new Scanner(System.in);
+System.out.print("In:");
+String name = inp.nextLine();
+//DO NOT CHANGE ABOVE CODE!  Write your code below
+if (name.equals("Chen")) {
+System.out.println("teacher");
+} else {
+System.out.println("student");
+}
+}
+}************************************
+
+25///*
+The variable "name" holds a String user input
+Write a conditional statement starting on line 9 that does the following:
+If name is equal to "Chen", print "teacher"
+For any other input, print "student"
+Examples:
+In: Chen
+teacher
+In: Faa
+student
+Hint: for your if condition use if(name.equals("Chen")) - we haven't study it yet,
+but this is code to compare Strings. We will cover this topic soon.
+*/
+import java.util.Scanner;
+public class Problem_026 {
+public static void main(String[] args) {
+Scanner inp = new Scanner(System.in);
+System.out.print("In:");
+String name = inp.nextLine();
+//DO NOT CHANGE ABOVE CODE!  Write your code below
+if (name.equals("Chen")) {
+System.out.println("teacher");
+} else {
+System.out.println("student");
+}
+}
+}
+*********************************************
+26/Write a Java program to ask age "Please enter your age".
+Based on the age define whether the user is eligible to vote or not.
+A person who is eligible to vote must be older or equal to 18 years old and the
+program will show "You are eligible to vote".
+Otherwise, the program will show "You are not eligible to vote".
+Examples:
+Please enter your age 18
+You are eligible to vote
+Please enter your age 16
+You are not eligible to vote
+*/
+import java.util.Scanner;
+public class Problem_027 {
+public static void main(String[] args) {
+Scanner age = new Scanner(System.in);
+System.out.println("Please enter your age");
+int numberOfAge = age.nextInt();
+if (numberOfAge >= 18) {
+System.out.println("You are eligible to vote");
+} else {
+System.out.println("You are not eligible to vote");
+}
+}
+**************************************************
+
+27///*
+Write a program to take values of length and width from the user.
+Based on value define whether the shape is a square or rectangle.
+Examples:
+Please enter the length 18
+Please enter the width 16
+The shape of your object is rectangle
+Please enter the length 16
+Please enter the width 16
+The shape of your object is square
+*/
+import java.util.Scanner;
+public class Problem_028 {
+public static void main(String[] args) {
+Scanner values = new Scanner(System.in);
+System.out.println("Please enter the length");
+int length = values.nextInt();
+System.out.println("Please enter the width");
+int width = values.nextInt();
+if (length != width) {
+System.out.println("The shape of your object is rectangle");
+} else {
+System.out.println("The shape of your object is square");
+}
+}
+}***********************************************************
+
+28//Write a java program that prints out true if ( x y ) returns a positive value. Else
+prints out false if (x y) returns a negative value.
+Step 1: Your program should ask "Please enter first number" - for the 1st number
+and "Please enter second number" - for the 2nd number.
+Step 2: Create if condition to check if the multiplication of x and y values is
+positive or negative.
+If the result of a multiplication is positive print true, otherwise print false.
+Example Output:
+Please enter first number
+Please enter second number
+true
+Example Output:
+Please enter first number
+Please enter second number
+false
+IMPORTANT: Must use a Scanner class
+*/
+import java.util.Scanner;
+public class Problem_029 {
+public static void main(String[] args) {
+Scanner value = new Scanner(System.in);
+System.out.println("Please enter first number");
+int x = value.nextInt();
+System.out.println("Please enter second number");
+int y = value.nextInt();
+if (x * y > 0) {
+System.out.println("true");
+} else {
+System.out.println("false");
+}
+}
+}
+**********************************************
+
+29///*
+Write a program to take the month number from a user.
+Provide month name to the corresponding month number
+If a user provides any number that is out of month range, the program should
+display "Invalid"
+IMPORTANT: use Scanner Class
+Example Output:
+Please enter month number 1
+January
+Please enter month number 33
+Invalid
+*/
+import java.util.Scanner;
+public class Problem_030 {
+public static void main(String[] args) {
+Scanner month = new Scanner(System.in);
+System.out.println("Please enter month number");
+int monthNumber = month.nextInt();
+String out;
+if (monthNumber == 1) {
+out="January";
+} else if (monthNumber == 2) {
+out="February";
+} else if (monthNumber == 3) {
+out="March";
+} else if (monthNumber == 4) {
+out="April";
+} else if (monthNumber == 5) {
+out="May";
+} else if (monthNumber == 6) {
+out="June";
+} else if (monthNumber == 7) {
+out="July";
+} else if (monthNumber == 8) {
+out="August";
+} else if (monthNumber == 9) {
+out="September";
+} else if (monthNumber == 10) {
+out="October";
+} else if (monthNumber == 11) {
+out="November";
+} else if (monthNumber == 12) {
+out="December";
+} else {
+out="Invalid";
+}
+System.out.println(out);
+}
+}**************************************
+
+30//import java.util.Scanner;
+public class Problem_031 {
+public static void main(String[] args) {
+boolean isSunny;
+int temperature ;
+Scanner scanner=new Scanner(System.in);
+System.out.println("Is it sunny outside?");
+isSunny=scanner.nextBoolean();
+if(isSunny){
+System.out.println("It is a sunny day, I should go somewhere!");
+System.out.println("What is the temperature outside?");
+temperature=scanner.nextInt();
+if(temperature>85){
+System.out.println("I am going to the beach");
+}else {
+System.out.println("I am going to the park");
+}
+}else
+{
+System.out.println("I stay home and practice Java");
+}
+}
+}
+
+31//*******************************************************
+import java.util.Scanner;
+public class Problem_032 {
+public static void main(String[] args) {
+Scanner scanner=new Scanner(System.in);
+char gender;
+int age;
+System.out.println("Please enter your gender: M or F");
+gender=scanner.next().charAt(0);
+System.out.println("Please enter your age");
+age=scanner.nextInt();
+String out;
+if(age>25){
+if(gender=='F'){
+out="Woman";
+}else {
+out="Man";
+}
+}else{
+if(gender=='F'){
+out="Girl";
+}else {
+out="Boy";
+}
+}
+System.out.println(out);
+}
+}
+****************************************************************
+
+32//public class Problem_033 {
+public static void main(String[] args) {
+Scanner scanner=new Scanner(System.in);
+System.out.println("Please enter a number");
+int number;
+number= scanner.nextInt();
+if(number%2==0){
+System.out.println("Value is even");
+if(number>1000){
+System.out.println("Even value is large");
+}else {
+System.out.println("Even value is just right");
+}
+}else {
+System.out.println("Value is odd");
+if(number>1000){
+System.out.println("Odd value is large");
+}else {
+System.out.println("Odd value is just right");
+}
+}
+}
+*************************************************
+33
